@@ -13,7 +13,7 @@ PIP_OPTIONS="${PIP_OPTIONS:---upgrade}"
 PIP_REQUIREMENTS="${PIP_REQUIREMENTS:-}"
 PYTHON_BUILD_DIR="${PYTHON_BUILD_DIR:-}"
 PYTHON_CONFIG="${PYTHON_CONFIG:-}"
-version="3.8.2"
+version="3.10.12"
 PYTHON_SOURCE="${PYTHON_SOURCE:-https://www.python.org/ftp/python/${version}/Python-${version}.tgz}"
 
 script=$(readlink -f $0)
