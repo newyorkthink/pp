@@ -5,7 +5,7 @@ if [[ -z "$DEBUG" ]] || [[ "$DEBUG" -eq "0" ]]; then
 else
     set -ex
 fi
-
+sdSd1
 
 # Configuration variables
 NPROC="${NPROC:-$(nproc)}"
@@ -22,7 +22,7 @@ BASEDIR="${APPDIR:-$(readlink -m $(dirname $script))}"
 
 prefix="usr/python"
 
-
+sdjkljkljaslkdjlkasjdklasjdklsajdklasjdklsd
 # Parse the CLI
 show_usage () {
     echo "Usage: ${exe_name} --appdir <path to AppDir>"
